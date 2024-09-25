@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+p, li, b {
+    color: #5F564D;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#prep {
+    background-color: #FFF7FB;
+    border-radius: 10px;
+}
+
+#preptime {
+    margin-left: 1rem;
+}
+
+::marker {
+    color: #854632;
+    font-weight: bold;
+    font-family: "Outfit";
+}
+
+img {
+    border-radius: 10px;
+    width: 40vw;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.contents {
+    /*margin-left: 25vw;
+    margin-right: 25vw;*/
+    width: min-content;
+    margin-top: 5vh;
+    margin-bottom:  5vh;
+    padding: 50px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+body {
+    background: #F3E5D7;
+}
+
+h2 {
+    color: #854632;
+}
+
+h3 {
+    color: #7A284E;
+}
